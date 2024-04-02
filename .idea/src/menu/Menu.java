@@ -1,5 +1,9 @@
 package menu;
 
+import utils.*;
+import menu.*;
+import model.*;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

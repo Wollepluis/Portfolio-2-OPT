@@ -1,6 +1,8 @@
 package model;
 
-import menu.Menu;
+import utils.*;
+import menu.*;
+import model.*;
 
 public abstract class Gebruiker {
 

@@ -1,10 +1,8 @@
 package menu;
 
-import model.AZC;
-import model.Gemeente;
-import model.Vluchteling;
-import utils.DataSeeder;
-import utils.Security;
+import utils.*;
+import menu.*;
+import model.*;
 
 public class ActieGegevens implements IActie {
     public void printGegevens(Vluchteling v, boolean asiel, AZC a) {

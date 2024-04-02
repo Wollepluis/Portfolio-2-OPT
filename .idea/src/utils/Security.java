@@ -1,9 +1,10 @@
 package utils;
 
+import utils.*;
+import menu.*;
 import model.*;
 
 import java.util.Scanner;
-
 public class Security {
 
     private static Security instance = null;

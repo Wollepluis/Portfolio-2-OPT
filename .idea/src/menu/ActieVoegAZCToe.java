@@ -1,7 +1,8 @@
 package menu;
 
-import model.Gemeente;
-import utils.DataSeeder;
+import utils.*;
+import menu.*;
+import model.*;
 
 import java.util.Scanner;
 

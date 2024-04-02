@@ -1,9 +1,8 @@
 package menu;
 
-import model.AZC;
-import model.Gemeente;
-import model.Vluchteling;
-import utils.DataSeeder;
+import utils.*;
+import menu.*;
+import model.*;
 
 import java.util.Scanner;
 

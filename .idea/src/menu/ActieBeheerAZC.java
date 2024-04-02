@@ -1,8 +1,8 @@
 package menu;
 
-import model.AZC;
-import model.Gemeente;
-import utils.DataSeeder;
+import utils.*;
+import menu.*;
+import model.*;
 
 public class ActieBeheerAZC implements IActie{
 

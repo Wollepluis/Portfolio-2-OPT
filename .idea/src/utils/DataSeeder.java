@@ -1,7 +1,9 @@
 package utils;
 
-import model.*;
+import utils.*;
 import menu.*;
+import model.*;
+
 import java.util.ArrayList;
 
 public class DataSeeder {

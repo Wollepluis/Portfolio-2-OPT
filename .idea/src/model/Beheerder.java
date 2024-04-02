@@ -1,7 +1,8 @@
 package model;
 
-import menu.Menu;
-import utils.DataSeeder;
+import utils.*;
+import menu.*;
+import model.*;
 
 public class Beheerder extends Gebruiker {
 

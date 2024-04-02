@@ -1,5 +1,9 @@
 package menu;
 
+import utils.*;
+import menu.*;
+import model.*;
+
 public class Menukeuze {
 
     int keuze;

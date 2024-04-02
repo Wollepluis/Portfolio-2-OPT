@@ -1,7 +1,8 @@
 package menu;
 
-import model.*;
 import utils.*;
+import menu.*;
+import model.*;
 
 import java.util.Scanner;
 

@@ -1,6 +1,8 @@
 package model;
 
-import utils.DataSeeder;
+import utils.*;
+import menu.*;
+import model.*;
 
 public class Land {
 

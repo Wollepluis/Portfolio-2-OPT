@@ -1,8 +1,8 @@
 package menu;
 
-import model.Land;
-import utils.DataSeeder;
-import utils.JaNeeVraag;
+import utils.*;
+import menu.*;
+import model.*;
 
 import java.util.Scanner;
 

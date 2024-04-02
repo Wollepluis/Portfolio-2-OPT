@@ -1,5 +1,9 @@
 package utils;
 
+import utils.*;
+import menu.*;
+import model.*;
+
 import java.util.Scanner;
 
 public class JaNeeVraag {

@@ -1,9 +1,5 @@
 package model;
 
-import utils.*;
-import menu.*;
-import model.*;
-
 public class Land {
 
     private String naam;

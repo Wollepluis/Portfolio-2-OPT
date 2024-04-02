@@ -1,6 +1,5 @@
 package utils;
 
-import utils.*;
 import menu.*;
 import model.*;
 
@@ -73,8 +72,8 @@ public class DataSeeder {
 
         //Menu 0
         Menu uitgelogd = new Menu ("U bent nog niet ingelogd");
-        Menukeuze inloggen = new Menukeuze ("Login", new ActieLogin ());
-        Menukeuze exit = new Menukeuze (9, "Exit", true, new ActieExit ());
+        Menukeuze inloggen = new Menukeuze ("Login", new ActieLogin());
+        Menukeuze exit = new Menukeuze (9, "Exit", true, new ActieExit());
         uitgelogd.voegMenukeuzeToe (inloggen);
         uitgelogd.voegMenukeuzeToe (exit);
         menus.add (uitgelogd);

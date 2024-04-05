@@ -38,8 +38,8 @@ public class Vluchteling extends Gebruiker {
         return this.naam;
     }
 
-    public Land getLandVanHerkomst() {
-        return this.landVanHerkomst;
+    public String getLandVanHerkomst() {
+        return this.landVanHerkomst.getNaam();
     }
 
     public boolean getKanPaspoortTonen() {

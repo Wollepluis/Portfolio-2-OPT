@@ -68,7 +68,7 @@ public class Menu {
 
         System.out.println();
         System.out.print("Wat wilt u doen? Maak een keuze: ");
-        setLaatsteMenukeuze(scanner.nextInt()); scanner.nextLine();
+        setLaatsteMenukeuze(Integer.parseInt(scanner.nextLine()));
         Menukeuze menukeuze = getJuisteMenukeuze(getLaatsteMenukeuze());
 
         if (menukeuze != null) {

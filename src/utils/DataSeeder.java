@@ -35,7 +35,7 @@ public class DataSeeder {
         }
     }
 
-    public void voegVluchtelingToe(String naam, String landVanHerkomst) {
+    public void voegVluchtelingToe(String naam, Land landVanHerkomst) {
         Vluchteling vluchteling = new Vluchteling(naam, naam, landVanHerkomst);
         voegGebruikerToe(vluchteling);
         nieuweVluchtelingen.add(vluchteling);
@@ -68,7 +68,7 @@ public class DataSeeder {
         voegAZCToe("Amsterdam", "1067SL", "Willinklaan", 3, 700);
         voegAZCToe("Den Haag", "2517AS", "Laan van Meerdervoort", 108, 600);
 
-        voegVluchtelingToe("Mark Wilbrink", "Nederland");
+        voegVluchtelingToe("Mark Wilbrink", new Land("Nederland", true));
 
         //Menu 0
         Menu uitgelogd = new Menu ("U bent nog niet ingelogd");

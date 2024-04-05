@@ -7,7 +7,7 @@ import model.*;
 public class Vluchteling extends Gebruiker {
 
     private String naam;
-    private String landVanHerkomst;
+    private Land landVanHerkomst;
     private boolean kanPaspoortTonen;
     private boolean verblijfsvergunning;
     private boolean rechter;
@@ -18,7 +18,7 @@ public class Vluchteling extends Gebruiker {
         this.naam = naam;
     }
 
-    public void setLandVanHerkomst(String landVanHerkomst) {
+    public void setLandVanHerkomst(Land landVanHerkomst) {
         this.landVanHerkomst = landVanHerkomst;
     }
 
@@ -38,7 +38,7 @@ public class Vluchteling extends Gebruiker {
         return this.naam;
     }
 
-    public String getLandVanHerkomst() {
+    public Land getLandVanHerkomst() {
         return this.landVanHerkomst;
     }
 
@@ -62,7 +62,7 @@ public class Vluchteling extends Gebruiker {
         return eigenWoning;
     }
 
-    public Vluchteling(String gebruikersnaam, String naam, String landVanHerkomst) {
+    public Vluchteling(String gebruikersnaam, String naam, Land landVanHerkomst) {
         super(gebruikersnaam);
         this.setNaam(naam);
         this.setLandVanHerkomst(landVanHerkomst);

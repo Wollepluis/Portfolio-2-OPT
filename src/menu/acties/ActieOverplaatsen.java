@@ -1,7 +1,6 @@
-package menu;
+package menu.acties;
 
 import utils.*;
-import menu.*;
 import model.*;
 
 import java.util.Scanner;

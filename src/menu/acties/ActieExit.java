@@ -1,8 +1,5 @@
-package menu;
+package menu.acties;
 
-import utils.*;
-import menu.*;
-import model.*;
 public class ActieExit implements IActie {
 
     @Override

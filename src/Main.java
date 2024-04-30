@@ -7,6 +7,7 @@ public class Main {
 
         DataSeeder seeder = DataSeeder.getInstance();
 
+
         while(true) {
             Menu menu = seeder.getMenu();
             menu.toonMenu();

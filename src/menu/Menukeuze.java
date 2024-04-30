@@ -1,8 +1,6 @@
 package menu;
 
-import utils.*;
-import menu.*;
-import model.*;
+import menu.acties.IActie;
 
 public class Menukeuze {
 
